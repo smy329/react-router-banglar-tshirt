@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Main from './components/Layouts/Main';
 import Home from './components/Home';
 import OrderReview from './components/OrderReview';
+import Grandpa from './components/FamilyTree/Grandpa';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'order-review',
         element: <OrderReview />,
+      },
+      {
+        path: 'grandpa',
+        element: <Grandpa />,
       },
     ],
   },
